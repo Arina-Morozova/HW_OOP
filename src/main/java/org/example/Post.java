@@ -1,8 +1,12 @@
+package org.example;
+
 public class Post {
+
     public String name;
     public String passport;
-    public String patronimyc;
+    public String patronymic;
     public String phone;
     public String surname;
-    public String subscription;
+    public boolean subscription;
+    public FormDate birthday;
 }
